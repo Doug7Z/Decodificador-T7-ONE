@@ -1,0 +1,754 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --fonte-texto: "VT323", monospace;
+    --fonte-texto-weight:400;
+    --fonte-text-style:normal;
+    --fonte-espacamento:2px;
+    --fonte-cor:#6BB692;
+    /*--fonte-cor:#61F1EE;*/
+   
+}
+
+
+
+body {
+width: auto;
+height: auto;
+background-image: url(/Challenge/img/background\ Matrix.gif);
+background-repeat: no-repeat;
+background-size: cover;
+box-sizing: border-box;
+display: flex;
+flex-direction: column;
+
+
+/*background-color: chartreuse;*/
+
+
+}
+
+
+
+.Logo{
+    background-color: transparent;
+    width:120px;
+    height: 48px;
+    margin-top: 40px;
+    margin-left: 40px;
+    gap: 40px;
+    opacity: 0px;
+
+}
+
+.main-container{
+    /*background-color: darkorange;*/
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+   
+}
+
+.bloco-1-2-container{
+    /*background-color: deeppink;*/
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+.bloco1{
+    display: flex;
+    flex-direction: column;
+    width: 690px;
+    height: 920px;
+    
+    /*background-color: blueviolet;*/
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.entrada-Texto{
+    width: 680px;
+    height: 400px;
+    /*background-color: aqua;*/
+    margin-top: 128px; 
+    background-color: black;
+    /*color: green;*/
+    color: var(--fonte-cor);
+    font-family: var(--fonte-texto);
+    font-weight: var(--fonte-texto-weight);
+    font-style: var(--fonte-text-style);
+    letter-spacing: var(--fonte-espacamento);
+    font-size: 36px;
+    border: 10px solid #333;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    outline: none;
+    resize: none;
+  
+   /*text-shadow: 0 0 5px rgb(83, 119, 83);*/
+   /*text-shadow: 2px 2px 2px  #61F1EE ,  4px 3px 3px  black;*/
+    text-shadow: 3px 3px 3px  black, 3px 3px 3px rgb(83, 119, 83), 3px 3px 3px  black, 2px 1px 1px  #61F1EE, 5px 5px 5px  black ;
+  
+
+}
+
+
+.texto-bloco1{
+    margin-bottom: 10px;
+    color: var(--fonte-cor);
+    font-size: 20px;
+    text-shadow: black 1px 1px 0;
+}
+
+h6{
+    font-size:50px;
+}
+.btn-container{
+    width: 680px;
+    height: 100px; 
+    
+    /*background-color: blue;*/
+    
+}
+
+.btn-cripto{
+    width: 328px;
+    height:67px;
+    /*padding: 24px 0px 0px 0px;*/
+    gap: 8px;
+    border-radius: 24px;
+    opacity: 0px;
+    text-align: center;
+    font-family: var(--fonte-texto);
+    font-weight: var(--fonte-texto-weight);
+    font-style: var(--fonte-text-style);
+    letter-spacing: var(--fonte-espacamento);
+    color: var(--fonte-cor);
+    background-color: black;
+    font-size: 28px;
+}
+.btn-Descripto{
+    width: 328px;
+    height: 67px;
+    /*padding: 24px 0 0 0;*/
+    gap: 8px;
+    border-radius: 24px;
+    border: 3px 0px 0px 0px;
+    border-color: var(--fonte-cor);
+    opacity: 0px;
+
+    font-family: var(--fonte-texto);
+    font-weight: var(--fonte-texto-weight);
+    font-style: var(--fonte-text-style);
+    letter-spacing: var(--fonte-espacamento);
+    color: var(--fonte-cor);
+    background-color: black;
+    border-color: var(--fonte-cor);
+    font-size: 28px;
+}
+      
+
+
+.btn-cripto:hover{
+    border-color:#65F5F9 ;
+    box-shadow: 0px 1px 2px 5px #65F5F9;
+    box-shadow: #65F5F9 -1px 3px 25px -5px;
+    color:#65F5F9 ;
+}
+.btn-Descripto:hover{
+    border-color:#65F5F9 ;
+    box-shadow: 0px 1px 2px 5px #65F5F9;
+    box-shadow: #65F5F9 -1px 3px 25px -5px;
+    color:#65F5F9 ;
+}
+
+
+.retangulo{
+    background-color: brown;
+    width: 400px;
+    height: 944px;
+    
+    margin-bottom: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+    
+    gap: 0px;
+    border-radius: 35px;
+    opacity: 0px;
+
+    background-image: url(/Challenge/img/cel2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-image: none ;
+    background-size: 100% 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.divContainerRet{
+    width: 70%;
+    height: 50%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    align-items: center;
+}
+.paragrafoRet{
+    width: 95%;
+    height:40%;
+    margin-top: 15%;
+    color: black;
+    background-color: #BEED8F;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+    border-top-left-radius: 0%;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+
+    opacity: 100%;
+}
+.botaoRetCopiar{
+    width: auto;
+    height: 12%;
+    padding: 2%;
+    background-color: #09080D;
+    color: #9B9B9D;
+    border: transparent;
+    border-radius: 10px;
+}
+.botaoRetCopiar:hover{
+    border-color:#65F5F9 ;
+    box-shadow: 0px 1px 2px 5px #65F5F9;
+    box-shadow: #65F5F9 -1px 3px 25px -5px;
+    color:#65F5F9 ;
+}
+
+.transparent {
+    opacity: 0;
+}
+
+
+
+
+.rodape{
+    background-color: transparent;
+    margin-bottom: 0.5%;
+    text-align: center;
+
+    font-weight: var(--fonte-texto-weight);
+    font-style: var(--fonte-text-style);
+    letter-spacing: var(--fonte-espacamento);
+    color: var(--fonte-cor);
+   
+}
+
+
+
+
+/* Responsividade 01 */
+@media (max-width: 1366px) {
+    body{
+    width: auto;
+    /*height: 768px;*/
+    max-height: 768px;
+    }
+
+    .Logo{
+        width:80px;
+        height: 22px;
+        margin-top: 40px;
+        margin-left: 40px;
+        gap: 40px;
+        opacity: 0px;
+    
+    }
+    .Logo img{
+        width: 80px;
+    }
+
+    .main-container{
+        width: 100%;
+        height: auto;
+        gap: 40px;
+       
+    }
+
+    .bloco-1-2-container{
+        gap: 170px; 
+    }
+
+    .bloco1{
+        width: 645px;
+        height: 600px;
+       
+    }
+
+    .entrada-Texto{
+        width: 655px;
+        height: 299px;
+        margin-top: 50px; 
+    }
+
+    .texto-bloco1{
+        margin-bottom: 7.5px;
+        font-size: 17px;
+    }
+    
+    h6{
+        font-size:47px;
+    }
+    .btn-container{
+        width: 655px;
+        height: 77px; 
+        
+    }
+
+    .btn-cripto{
+        width: 310px;
+        height:49px;
+        gap: 7px;
+        font-size: 26px;
+    }
+    .btn-Descripto{
+        width: 310px;
+        height: 49px;
+        gap: 7px;
+        font-size: 26px;
+    }
+          
+
+    .retangulo{
+        background-color: brown;
+        width: 330px;
+        height: 680px;
+        margin-bottom: 20px;
+        margin-right: 40px;
+        margin-top: 40px;
+        
+    }
+
+    .paragrafoRet{
+        width: 95%;
+        height:48%;
+        margin-top: 14%;
+       
+    }
+
+}
+
+
+/*Responsividade 02 tablet  768 x 1174 */
+@media (max-width: 768px){
+
+    body{
+        width: auto;
+        height: 1174px;
+        max-height: 1174px;
+        background-image: url(/Challenge/img/background\ Matrix.gif);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    .Logo{
+      
+
+        width: 688px;
+        height: 60px;
+        margin-top: 20px;
+        margin-left: 40px;
+        gap: 0px;
+        opacity: 0px;
+
+    
+    }
+    .Logo img{
+        width: 60px;
+    }
+
+    .main-container{
+        width: 768px;
+        height: auto;
+        gap: 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .bloco-1-2-container{
+        gap: 0px; 
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bloco1{
+        width: 645px;
+        height: 400px;
+       gap: 20px;
+    }
+
+    .entrada-Texto{
+        width: 688px;
+        height: 430px;
+        margin-top: 0px; 
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+
+    .texto-bloco1{
+        margin-bottom: 7.5px;
+        font-size: 17px;
+    }
+    
+    h6{
+        font-size:47px;
+    }
+    .btn-container{
+        width: 655px;
+        height: 77px; 
+        
+    }
+
+    .btn-cripto{
+        width: 310px;
+        height:49px;
+        gap: 7px;
+        font-size: 26px;
+    }
+    .btn-Descripto{
+        width: 310px;
+        height: 49px;
+        gap: 7px;
+        font-size: 26px;
+    }
+          
+
+    .retangulo{
+        
+        width: 688px;
+        height: 400px;
+        margin-bottom: 40px;
+        margin-right: 40px;
+        margin-top: 140px;
+        margin-left: 40px;
+        background-image: none;
+        
+       
+
+        /*background-color: #262630;*/
+        background-color: #101018;
+        /*border: 10px solid #333;*/
+        border: transparent;
+        border-radius: 15px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        outline: none;
+        resize: none;
+
+
+        flex-direction: column;
+        gap: 10%;
+
+        color: var(--fonte-cor);
+        font-family: var(--fonte-texto);
+        font-weight: var(--fonte-texto-weight);
+        font-style: var(--fonte-text-style);
+        letter-spacing: var(--fonte-espacamento);
+        font-size: 20px;
+    }
+
+
+    .divContainerRet{
+        width: 95%;
+        height: 70%;
+        background-color: transparent;
+        display: flex;
+        flex-direction: column;
+        /*justify-content: space-between;*/
+        
+        align-items: center;
+        gap: 0px;
+        background-color: transparent;
+    }
+
+    .paragrafoRet{
+        width: 90%;
+        height:250px;
+        margin-top: 0%;
+        border-radius: 0%;
+       background-color: transparent;
+
+        color: var(--fonte-cor);
+
+        color: var(--fonte-cor);
+        font-family: var(--fonte-texto);
+        font-weight: var(--fonte-texto-weight);
+        font-style: var(--fonte-text-style);
+        letter-spacing: var(--fonte-espacamento);
+        font-size: 30px;
+
+       
+       
+    }
+
+    .botaoRetCopiar{
+        padding: 0%;
+        width: 310px;
+        height: 49px;
+        border-radius: 24px;
+        opacity: 0px;
+        text-align: center;
+        font-family: var(--fonte-texto);
+        font-weight: var(--fonte-texto-weight);
+        font-style: var(--fonte-text-style);
+        letter-spacing: var(--fonte-espacamento);
+        color: var(--fonte-cor);
+        background-color: black;
+        font-size: 28px;
+        
+    }
+    .botaoRetCopiar:hover{
+        border-color:#65F5F9 ;
+        box-shadow: 0px 1px 2px 5px #65F5F9;
+        box-shadow: #65F5F9 -1px 3px 25px -5px;
+        color:#65F5F9 ;
+    }
+
+
+    .rodape{
+        margin-top: 7%;
+    }
+
+
+}
+
+
+/*Responsividade 03 celular  768 x 1715 */
+@media (max-width: 375px){
+
+    body{
+    width: auto;
+    height: 1715px;
+    max-height: 1715px;
+    
+    }
+
+
+    .Logo{
+        background-color: transparent;
+        width:375px;
+        height: 96px;
+        margin-top: 10%;
+        margin-left: 0px;
+        gap: 0px;
+        opacity: 0px;
+    
+    }
+
+    .Logo img{
+        width: 100px;
+    }
+    
+    .main-container{
+        /*background-color: darkorange;*/
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+       
+    }
+    
+    .bloco-1-2-container{
+        /*background-color: deeppink;*/
+        display: flex;
+        align-items: center;
+        gap: 150px;
+    }
+    .bloco1{
+        display: flex;
+        flex-direction: column;
+        width: 343px;
+        height: 624px;
+        
+        justify-content: space-between;
+        align-items: center;
+        gap: 0px;
+    }
+    
+    .entrada-Texto{
+        width: 343px;
+        height: 400px;
+        /*background-color: aqua;*/
+        margin-top: 0px; 
+    }
+    
+    
+    .texto-bloco1{
+        margin-bottom: 10px;
+        color: var(--fonte-cor);
+        font-size: 20px;
+        text-shadow: black 1px 1px 0;
+    }
+    
+    h6{
+        font-size:30px;
+    }
+    .btn-container{
+        width: 343px;
+        height: 250px; 
+        
+        background-color: transparent;
+        flex-direction: column;
+        gap: 5px;
+        
+    }
+    
+    .btn-cripto{
+        width: 328px;
+        height:67px;
+        margin-bottom: 12px;
+        margin-left: 6px;
+    }
+    .btn-Descripto{
+        width: 328px;
+        height: 67px;
+        gap: 0px;
+        font-size: 28px;
+        margin-left: 6px;
+    }
+   
+    
+    .retangulo{
+        /*background-color: #262630;*/
+        /*background-color: #006333;*/
+        background-color: #101018;
+        width: 343px;
+        height: 595px;      
+        
+        max-height: 595px;
+        margin-bottom: 50px;
+        margin-top: 5px;
+        gap: 0px;
+        border-radius: 35px;
+        opacity: 0px;
+        background-image: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: transparent;
+        
+    }
+    
+    
+    
+    .divContainerRet{
+        width: 100%;
+        height: 90%;
+        background-color: transparent;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 1%;
+        align-items: center;
+    }
+    .paragrafoRet{
+        width: 99%;
+        height:80%;
+        
+        margin-top: 1%;
+        color: black;
+        background-color: transparent;
+
+
+        color: var(--fonte-cor);
+        font-family: var(--fonte-texto);
+        font-weight: var(--fonte-texto-weight);
+        font-style: var(--fonte-text-style);
+        letter-spacing: var(--fonte-espacamento);
+        font-size: 30px;
+        
+    
+        border-top-left-radius: 0%;
+        border-top-right-radius: 0%;
+        border-bottom-left-radius: 0%;
+        border-bottom-right-radius: 0%;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        hyphens: auto;
+    
+        opacity: 100%;
+    }
+    .botaoRetCopiar{
+        width: 328px;
+        height:67px;
+        padding: 2%;
+        
+        text-align: center;
+        font-family: var(--fonte-texto);
+        font-weight: var(--fonte-texto-weight);
+        font-style: var(--fonte-text-style);
+        letter-spacing: var(--fonte-espacamento);
+        color: var(--fonte-cor);
+        background-color: black;
+        font-size: 28px;
+    }
+    .botaoRetCopiar:hover{
+        border-color:#65F5F9 ;
+        box-shadow: 0px 1px 2px 5px #65F5F9;
+        box-shadow: #65F5F9 -1px 3px 25px -5px;
+        color:#65F5F9 ;
+    }
+    
+    .transparent {
+        opacity: 0;
+    }
+    
+    
+    
+    
+    .rodape{
+        background-color: transparent;
+        margin-bottom: 0.5%;
+        text-align: center;
+    
+        font-weight: var(--fonte-texto-weight);
+        font-style: var(--fonte-text-style);
+        letter-spacing: var(--fonte-espacamento);
+        color: var(--fonte-cor);
+       
+    }
+    
+
+
+}
